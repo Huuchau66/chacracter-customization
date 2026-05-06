@@ -33,10 +33,10 @@ function App() {
       <div className="avatarBox">
       <h1>Character Customization</h1>
       <div className="avatar">
-        <img src={`/character/body/${body}.png`} alt="" />
-        <img src={`/character/eyes/${eyes}.png`} alt="" />
-        <img src={`/character/hair/${hair}.png`} alt="" />
-        <img src={`/character/mouths/${mouths}.png`} alt="" />
+        <img src={process.env.PUBLIC_URL+`/character/body/${body}.png`} alt="" />
+        <img src={process.env.PUBLIC_URL+`/character/eyes/${eyes}.png`} alt="" />
+        <img src={process.env.PUBLIC_URL+`/character/hair/${hair}.png`} alt="" />
+        <img src={process.env.PUBLIC_URL+`/character/mouths/${mouths}.png`} alt="" />
       </div>
       <button onClick={randomize}>Random</button>
       </div>
@@ -48,7 +48,7 @@ function App() {
         {[...Array(TOTAL.body)].map((_, i) => (
           <img alt=""
             key={i}
-            src={`/character/body/${i}.png`}
+            src={process.env.PUBLIC_URL+`/character/body/${i}.png`}
             onClick={() => setBody(i)}
           />
         ))}
@@ -59,7 +59,7 @@ function App() {
         {[...Array(TOTAL.eyes)].map((_, i) => (
           <img alt=""
             key={i}
-            src={`/character/eyes/${i}.png`}
+            src={process.env.PUBLIC_URL+`/character/eyes/${i}.png`}
             onClick={() => setEyes(i)}
           />
         ))}
@@ -70,7 +70,7 @@ function App() {
         {[...Array(TOTAL.hair)].map((_, i) => (
           <img alt=""
             key={i}
-            src={`/character/hair/${i}.png`}
+            src={process.env.PUBLIC_URL+`/character/hair/${i}.png`}
             onClick={() => setHair(i)}
           />
         ))}
@@ -81,7 +81,7 @@ function App() {
         {[...Array(TOTAL.mouths)].map((_, i) => (
           <img alt=""
             key={i}
-            src={`/character/mouths/${i}.png`}
+            src={process.env.PUBLIC_URL+`/character/mouths/${i}.png`}
             onClick={() => setMouths(i)}
           />
         ))}
