@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  gap: 40px;
+  padding: 20px;
+  background-color:antiquewhite;
+}
+
+.avatarBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  margin: 20px auto;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  border: 1px solid gray;
+}
+
+.avatar img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.list img {
+  width: 60px;
+  margin: 5px;
+  cursor: pointer;
+}
+.avatarBox {
+  width: 600px;
+}
+.ChoiseBox {
+  position: sticky;
+  top: 20px;
+  width: 600px;
+}
+.list{
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
