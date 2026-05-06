@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/chacracter-customization/static/css/main.2b5c88f5.css",
-    "main.js": "/chacracter-customization/static/js/main.55c75658.js",
+    "main.js": "/chacracter-customization/static/js/main.6ad90f64.js",
     "index.html": "/chacracter-customization/index.html",
     "main.2b5c88f5.css.map": "/chacracter-customization/static/css/main.2b5c88f5.css.map",
-    "main.55c75658.js.map": "/chacracter-customization/static/js/main.55c75658.js.map"
+    "main.6ad90f64.js.map": "/chacracter-customization/static/js/main.6ad90f64.js.map"
   },
   "entrypoints": [
     "static/css/main.2b5c88f5.css",
-    "static/js/main.55c75658.js"
+    "static/js/main.6ad90f64.js"
   ]
 }
